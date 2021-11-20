@@ -1,0 +1,204 @@
+/* 1. Google Docs Fonts Declaration */
+
+/* Open Sans */
+
+@font-face {
+	font-family: "Open Sans";
+	src:  url("./fonts/OpenSans/OpenSans-Bold.ttf") format('truetype');
+	font-weight: 700;
+
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src:  url("./fonts/OpenSans/OpenSans-BoldItalic.ttf") format('truetype');
+	font-weight: 700;
+	font-style: italic;
+
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src:  url("./fonts/OpenSans/OpenSans-Semibold.ttf") format('truetype');
+	font-weight: 600;
+
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src:  url("./fonts/OpenSans/OpenSans-SemiboldItalic.ttf") format('truetype');
+	font-weight: 600;
+	font-style: italic;
+
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src:  url("./fonts/OpenSans/OpenSans-Regular.ttf") format('truetype');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src:  url("./fonts/OpenSans/OpenSans-Light.ttf") format('truetype');
+	font-weight: 300;
+
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src:  url("./fonts/OpenSans/OpenSans-LightItalic.ttf") format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+
+
+/* Work Sans */
+
+@font-face {
+	font-family: "Work Sans";
+	src: url("./fonts/WorkSans/WorkSans-Bold.ttf") format('truetype');
+	font-weight: 700;
+
+}
+
+@font-face {
+	font-family: "Work Sans";
+	src: url("./fonts/WorkSans/WorkSans-SemiBold.ttf") format('truetype');
+	font-weight: 600;
+
+}
+
+@font-face {
+	font-family: "Work Sans";
+	src: url("./fonts/WorkSans/WorkSans-Medium.ttf") format('truetype');
+	font-weight: 500;
+
+}
+
+@font-face {
+	font-family: "Work Sans";
+	src: url("./fonts/WorkSans/WorkSans-Regular.ttf") format('truetype');
+	font-weight: 400;
+
+}
+
+@font-face {
+	font-family: "Work Sans";
+	src: url("./fonts/WorkSans/WorkSans-ExtraLight.ttf") format('truetype');
+	font-weight: 200;
+
+}
+
+@font-face {
+	font-family: "Work Sans";
+	src: url("./fonts/WorkSans/WorkSans-Thin.ttf") format('truetype');
+	font-weight: 100;
+
+}
+
+
+/* 2. Elements */
+
+* {
+	font-family: "Work Sans";
+	font-weight: 100;
+	background-color: hsla(30, 100%, 99%);
+	color: hsla(30, 3%, 34%);
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 70px;
+	text-align: center;
+}
+
+h2 {
+	font-family: "Work Sans";
+	font-weight: 200;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+
+/* 3. Navigation */
+
+.nav {
+	padding: 5px;
+	margin: 0;
+	background-color: hsla(27, 4%, 54%);
+	width: 100%;
+}
+
+.nav ul {
+	text-align: center;
+	background-color: hsla(27, 4%, 54%);
+}
+
+.nav li {
+	display: inline;
+	margin: 13px;
+	background-color: hsla(27, 4%, 54%);
+}
+
+.nav a {
+	background-color: hsla(27, 4%, 54%);
+	color: hsla(30, 100%, 83%);
+	font-size: 30px;
+	font-weight: 200;
+	text-decoration: none;
+}
+
+/* 4. Main */
+
+div {
+	border: 1px solid hsla(27, 4%, 54%);
+	margin: 60px 100px;
+	text-align: center;
+}
+
+
+.colours li {
+	display: inline-block;
+	background-color: pink;
+	margin: 20px;
+	padding: 25px;
+}
+
+#coolbeige {
+	background-color: hsl(30, 100%, 99%);
+	border: 1px solid hsl(30, 3%, 34%);
+}
+
+#peachyorange {
+	background-color: hsl(30, 100%, 83%);
+	border: 1px solid hsl(30, 3%, 34%);
+}
+
+#mustygrey {
+	background-color: hsl(30, 12%, 77%);
+	border: 1px solid hsl(30, 3%, 34%);
+}
+
+#silverash {
+	background-color: hsl(27, 4%, 54%);
+	border: 1px solid hsl(30, 3%, 34%);
+	color: hsl(30, 100%, 99%);
+}
+
+#smoke {
+	background-color: hsl(30, 3%, 34%);
+	border: 1px solid hsl(30, 3%, 34%);
+	color: hsl(30, 100%, 99%);
+}
+
+
