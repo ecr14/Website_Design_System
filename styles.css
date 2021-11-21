@@ -122,11 +122,24 @@ h1 {
 h2 {
 	font-family: "Work Sans";
 	font-weight: 200;
+	font-size: 30px;
 	text-align: center;
+	margin: 50px;
+}
+
+h3 {
+	font-family: "Work Sans";
+	font-weight: 300;
+	font-size: 20px;
+	/*text-align: left;*/
+	margin: 0 auto 20px;
+	text-decoration: underline;
 }
 
 p {
 	text-align: center;
+	margin: 50px;
+	font-size: 20px;
 }
 
 
@@ -163,9 +176,15 @@ p {
 div {
 	border: 1px solid hsla(27, 4%, 54%);
 	margin: 60px 100px;
+	padding: 30px;
 	text-align: center;
 }
 
+.left {
+	text-align: left;
+	margin: 0 auto 0px auto;
+	display: inline-block;
+}
 
 .colours li {
 	display: inline-block;
@@ -201,4 +220,172 @@ div {
 	color: hsl(30, 100%, 99%);
 }
 
+.open-sans {
+	font-family: "Open Sans";
+	font-weight: 300;
+}
 
+.work-sans {
+	font-family: "Work Sans";
+	font-weight: 300;
+}
+
+h3.open-sans {
+	font-family: "Open Sans";
+	font-weight: 300;
+}
+
+#opensans-bold {
+	font-family: "Open Sans";
+	font-weight: 700;
+	font-size: 50px;
+}
+
+#opensans-bolditalic {
+	font-family: "Open Sans";
+	font-weight: 700;
+	font-style: italic;
+	font-size: 40px;
+}
+
+#opensans-semibold {
+	font-family: "Open Sans";
+	font-weight: 600;
+	font-size: 35px;
+}
+
+#opensans-semibolditalic {
+	font-family: "Open Sans";
+	font-weight: 600;
+	font-style: italic;
+	font-size: 35px;
+}
+
+#opensans-regular {
+	font-family: "Open Sans";
+	font-weight: 400;
+	font-size: 30px;
+}
+
+#opensans-light {
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 25px;
+}
+
+#opensans-lightitalic {
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-style: italic;
+	font-size: 25px;
+}
+
+#worksans-bold {
+	font-family: "Work Sans";
+	font-weight: 700;
+	font-size: 50px;
+}
+
+#worksans-semibold {
+	font-family: "Work Sans";
+	font-weight: 600;
+	font-size: 40px;
+}
+
+#worksans-medium {
+	font-family: "Work Sans";
+	font-weight: 500;
+	font-size: 35px;
+}
+
+#worksans-regular {
+	font-family: "Work Sans";
+	font-weight: 400;
+	font-size: 35px;
+}
+
+#worksans-extralight {
+	font-family: "Work Sans";
+	font-weight: 200;
+	font-size: 30px;
+}
+
+#worksans-thin {
+	font-family: "Work Sans";
+	font-weight: 100;
+	font-size: 25px;
+}
+
+div.font {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+	grid-auto-rows: minmax(100px, auto);
+}
+
+#font-header {
+	grid-column: 1/3;
+	grid-row: 1;
+	text-align: center;
+}
+
+#col1-fonts {
+	grid-column: 1;
+	grid-row: 2;
+}
+
+#col2-fonts {
+	grid-column: 2;
+	grid-row: 2;
+	padding: ;
+}
+
+div.noborder {
+	border: none;
+	float: left;
+	margin: auto;
+	display: inline-block;
+	padding: 0 0 30px 0;
+	margin: auto 70px auto 70px;
+}
+
+p.font-description {
+	/*text-align: left;*/
+	margin: 0 auto 30px auto;
+}
+
+#textstylelisth1 {
+	list-style-position: inside;
+	padding: 0 0 20px 0;
+}
+
+#textstylelisth1 li {
+	font-size: 20px;
+}
+
+#textstylelisth2 {
+	list-style-position: inside;
+	padding: 0 0 20px 0;
+}
+
+#textstylelisth2 li {
+	font-size: 20px;
+}
+
+#textstylelisth3 {
+	list-style-position: inside;
+	padding: 0 0 20px 0;
+}
+
+#textstylelisth3 li {
+	font-size: 20px;
+}
+
+#textstylelistp {
+	list-style-position: inside;
+	padding: 0 0 20px 0;
+}
+
+#textstylelistp li {
+	font-size: 20px;
+}
